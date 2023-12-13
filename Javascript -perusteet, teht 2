@@ -1,0 +1,21 @@
+const puhelin = require(readline-sync);
+
+let henkilot = [{nimi: "Aku Ankka", puhelinnumero:434234},{nimi: Hessu Hopo", puhelinnumero:3242342}];
+
+function uusihenkilo() {
+    puhelin.question("Anna henkilon nimi: ", (nimi)=> {
+    puhelin.question("Anna henkilon puhelinnumero", (puhelinnumero) => {
+    const henkilo = {nimi, puhelinnumero};
+    henkilot.push(henkilo);
+        });
+    });
+}
+
+function haenumero(haettava){
+    const hakutulos = puhelinluettelo.find(henkilo => nimi == haettava);
+}
+
+puhelin.question("Anna haettavan henkilon nimi: ", (haettava) => {
+    const tulosnumero = haenumero(haettava);
+    console.log(tulosnumero);
+});
